@@ -25,6 +25,10 @@ docker run --name <имя контейнера> -e POSTGRES_USER=<имя> -e POS
 Перед запуском установите библиотеки командой:<br>
 <i>pip install requirements.txt</i>
 
+Примените миграции командами:<br>
+<i>python manage.py makemigrations<br></i>
+<i>python manage.py migrate</i>
+
 Запускайте приложение командой:
 <i>python manage.py runserver</i>
 

@@ -4,7 +4,7 @@ from sole_trader.models import SoleTrader, ProductsST, ContactsST
 
 
 class SoleTraderSerializer(serializers.ModelSerializer):
-    """Сериалайзер CRUD ИП"""
+    """Сериалайзер CRUD Индивидуального предпринимателя"""
     class Meta:
         model = SoleTrader
         read_only_fields = ['debt_to_supplier']

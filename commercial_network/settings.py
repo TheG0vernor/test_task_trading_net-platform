@@ -127,6 +127,9 @@ USE_I18N = True
 
 USE_TZ = True
 
+# rest framework
+REST_FRAMEWORK = {'SEARCH_PARAM': 'country'}
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
